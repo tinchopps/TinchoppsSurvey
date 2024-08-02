@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C561BAQFivIAxD6h0IQ/company-background_10000/0/1532547754611?e=2147483647&v=beta&t=8XVPuwPQG4XqlcB8u5be9IFHim4Vexc5DDcx-qUBUTM");
+  color: #ff5722;;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    max-width: 500px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align form elements to the left */
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-header h1 {
+    font-family: 'Bowlby One SC', cursive;
+    margin-bottom: 5px;
+}
+
+.form-header span {
+    color: #ff5722; /* Add a color to the span */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.submit input[type="submit"] {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #d84315;
+}
+
+
+/* Media Query for responsiveness*/
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+        font-size: 16px;
+    }
+}
